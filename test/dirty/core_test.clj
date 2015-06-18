@@ -1,4 +1,4 @@
-(ns dirty-xml.core-test
+(ns dirty.core-test
   (:require [clojure.test :refer :all]
             [dirty-xml.core :refer :all]))
 
