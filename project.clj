@@ -5,7 +5,10 @@
   :url "https://github.com/conan/dirty-xml"
 
   :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+            :url  "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "1.7.0-alpha1"]
-                 [org.clojure/data.xml "0.0.8"]])
+  :dependencies [[org.clojure/clojure "1.7.0-RC2"]
+                 [org.clojure/data.xml "0.0.8"]]
+
+  :profiles {:dev {:dependencies [[midje "1.7.0-beta1"]]
+                   :plugins      [[lein-midje "3.1.3"]]}})
